@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -13,11 +17,43 @@ header{
     justify-content: space-between;
     padding: 18px 100px;
     border-bottom: 1px solid #FFF2E7;
+    align-items: center;
+}
+
+header > img{
+    width: 62px;
+    height: 62px;
 }
 
 header > nav > a{
     text-decoration: none;
     color: white;
     font-size: 18px;
-    font-family: Sarala;
+    font-family: 'Sarala', sans-serif;
+    padding-left: 60px;
+}
+
+main > section{
+    padding-top: 70px;
+}
+
+.primeiro h1{
+    font-size: 64px;
+    color: white;
+    font-family: 'Righteous';
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+main > section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.primeiro p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Sarala';
+    color: white;
+    margin-bottom: 34px;
 }
