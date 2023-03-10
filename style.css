@@ -15,7 +15,7 @@ body {
 header{
     display: flex;
     justify-content: space-between;
-    padding: 18px 100px;
+    padding: 18px 168px;
     border-bottom: 1px solid #FFF2E7;
     align-items: center;
 }
@@ -28,32 +28,72 @@ header > img{
 header > nav > a{
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'Sarala', sans-serif;
     padding-left: 60px;
 }
 
 main > section{
     padding-top: 70px;
-}
-
-.primeiro h1{
-    font-size: 64px;
-    color: white;
-    font-family: 'Righteous';
-    font-weight: 400;
-    margin-bottom: 30px;
-}
-
-main > section{
     display: flex;
     justify-content: space-around;
 }
 
-.primeiro p{
-    font-size: 24px;
+.aside-one h1{
+    font-size: 64px;
+    color: white;
+    font-family: 'Righteous';
+    font-weight: 400;
+    margin-bottom: 23px;
+}
+
+.aside-one p{
+    font-size: 20px;
     font-weight: 400;
     font-family: 'Sarala';
     color: white;
     margin-bottom: 34px;
+}
+
+.aside-one input{
+    width: 155px;
+    height: 62px;
+    border-radius: 20px;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Sarala';
+}
+
+main .sec-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid #FFF2E7;
+    padding-bottom: 60px;
+}
+
+main .sec-two h2{
+    border-top: 1px solid #FFF2E7;
+    padding-top: 50px;
+    font-size: 25px;
+    font-family: 'Righteous';
+    color: #FFF2E7;
+}
+
+main .sec-two p{
+    color: #FFF2E7;
+    font-family: 'Sarala';
+    font-size: 16px;
+}
+
+footer{
+    display: flex;
+    padding-block: 30px;
+}
+
+footer > img{
+    width: 300px;
+    margin: 0 auto;
 }
