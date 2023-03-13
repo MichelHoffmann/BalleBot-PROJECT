@@ -1,0 +1,11 @@
+@media (max-width: 850px){
+    main section{
+        flex-direction: column;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    main section .ballebot img{
+        width: 85%;
+    }
+}
